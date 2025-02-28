@@ -1,4 +1,4 @@
-// LC Q1
+// LC Q26
 // Remove Duplicates from Sorted Array
 
 var removeDuplicates = function(nums) {
