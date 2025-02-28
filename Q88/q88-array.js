@@ -1,4 +1,4 @@
-// LC Q66
+// LC Q88
 // Merge Sorted Array
 
 var merge = function(nums1, m, nums2, n) {
