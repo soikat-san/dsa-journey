@@ -28,6 +28,10 @@ var containsNearbyDuplicate = function (nums, k) {
 };
 
 /**
+ * Maintaining the Window Size:
+	•	After adding the current element to the set, if the set’s size exceeds k, the element that is k positions behind (nums[i - k]) is removed. 
+    .   This ensures that only elements within the last k indices remain in the set.
+    
  * Time Complexity: O(n)
 The algorithm iterates over the array once, with each operation inside the loop (insertion, deletion, and lookup in a Set) being O(1) on average.
 
