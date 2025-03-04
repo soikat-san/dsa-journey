@@ -1,4 +1,4 @@
-// LC Q605
+// LC Q628
 // Maximum Product of Three Numbers
 
 var maximumProduct = function (nums) {
